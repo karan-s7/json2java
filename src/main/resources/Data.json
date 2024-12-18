@@ -1,0 +1,58 @@
+{
+  "orders": [
+    {
+      "order": {
+        "customer": {
+          "name": "Karan",
+          "email": "Karanin@gmail.com",
+          "phone": "917xxxxxxx"
+        },
+        "shippingAddress": {
+          "street": "Palaniappa street",
+          "city": "Chennai",
+          "zipCode": "600087",
+          "country": "India"
+        },
+        "inventory": [
+          {
+            "itemName": "SmartWatch",
+            "quantity": 10,
+            "totalPrice": 10000
+          },
+          {
+            "itemName": "Earphone",
+            "quantity": 5,
+            "totalPrice": 500
+          }
+        ]
+      }
+    },
+    {
+      "order": {
+        "customer": {
+          "name": "Saravanan",
+          "email": "K@gmail.com",
+          "phone": "9999xxxxxxx"
+        },
+        "shippingAddress": {
+          "street": "Gandhi street",
+          "city": "Mumbai",
+          "zipCode": "600011",
+          "country": "India"
+        },
+        "inventory": [
+          {
+            "itemName": "SmartWatch",
+            "quantity": 1,
+            "totalPrice": 10
+          },
+          {
+            "itemName": "Earphone",
+            "quantity": 5,
+            "totalPrice": 500
+          }
+        ]
+      }
+    }
+  ]
+}
