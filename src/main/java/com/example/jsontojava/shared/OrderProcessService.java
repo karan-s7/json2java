@@ -40,13 +40,7 @@ public class OrderProcessService {
                 OrderDetails retrievedOrder = orderDAO.getOrderByCustomerName(orderDetails.getCustomer().getName());
                 log.info("Order retrieved: " + retrievedOrder);
 
-//                orderDetails.getCustomer().setEmail("updatedEmail@example.com");
-//                orderDAO.updateOrder(orderDetails);
-//                log.info("Order updated successfully");
-
-//                orderDAO.deleteOrder(orderDetails.getCustomer().getName());
-//                log.info("Order deleted successfully");
-           }
+            }
 
         } catch (Exception e) {
             log.error("Error processing orders", e);
